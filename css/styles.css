@@ -64,6 +64,12 @@ form legend {
   margin-block: 2rem;
 }
 
+fieldset {
+  border: none;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
 a {
   color: #151e3f;
 }
