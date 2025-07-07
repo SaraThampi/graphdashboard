@@ -1,2 +1,2 @@
 # graphdashboard
-Trying login, auth and user generated graphs
+Trying login, auth with supabase and graphs displaying user data
