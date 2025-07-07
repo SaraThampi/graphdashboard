@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* layout */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background-color: #fcf7f8;
+  /*   background-color: green; */
+  max-width: 90%;
+  width: 1440px;
+  height: 835px;
+  /*   border: 1px solid black; */
+  color: #857885;
+}
+
+header {
+  /*   border: 1px solid black; */
+  padding: 2rem;
+  background-color: #151e3f;
+  color: #fcf7f8;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  width: 580px;
+  /*   height: 558px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  /*   border: 1px solid black; */
+}
+
+/* Header */
+
+header h1 {
+}
+
+/* Form */
+
+button {
+  font-family: inherit;
+  color: #fcf7f8;
+  cursor: pointer;
+  border: none;
+}
+.submit_button {
+  background-color: #757575;
+  padding-block: 1rem;
+  width: 580px;
+  border-radius: 32px;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+form legend {
+  font-size: 2rem;
+  color: #757575;
+  margin-block: 2rem;
+}
+
+a {
+  color: #151e3f;
+}
+
+form input {
+  width: 580px;
+  height: 56px;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  font-family: inherit;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+}
+
+#remember_me {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+
+#remember_me:checked {
+  color: #151e3f;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #151e3f;
+  box-shadow: 0 0 0 3px rgba(21, 30, 63, 0.2);
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  height: 20px;
+  /*   border: 1px solid black; */
+}
+
+.remember label {
+  line-height: 1;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.password-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /*   margin-bottom: 0.5rem; */
+}
+
+.password-toggle {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #857885;
+  padding: 0;
+  cursor: pointer;
+}
+
+.new_account,
+.continue {
+  margin-bottom: 2rem;
+}
+
+/*icon*/
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 2rem;
+}
+
+.line {
+  display: inline-block;
+  width: 30%;
+  height: 2px;
+  background-color: #757575;
+}
+
+.inline {
+  display: inline;
+  margin-inline: 1rem;
+  text-align: center;
+}
+
+.account-options p {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.fb_icon {
+  color: #1877f2;
+}
+
+.gl_icon {
+  color: #e94007;
+}
+
+.tw_icon {
+  color: #1da1f2;
+}
