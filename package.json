@@ -1,0 +1,16 @@
+{
+  "name": "graphdash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "test": "npm test",
+    "run": "node main.js"
+  },
+  "author": "sarat",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.3"
+  }
+}
